@@ -17,4 +17,6 @@ async function showMessage() {
 	await wait(delay);
 	output.textContent = text;
 }
+
+button.addEventListener("click", showMessage);
 button.addEventListener("click", showMessage);
